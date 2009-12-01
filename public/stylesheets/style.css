@@ -573,6 +573,7 @@ table{
     .tableB {
         color: #666;
         background-color: transparent;
+        border-collapse: collapse;
     }
     .tableB strong {
         color: #3b5993;
@@ -581,10 +582,10 @@ table{
     .tableB th {
         color: inherit;
         background-color: #fafafa;
-        border: 1px solid #d1d1d1;
     }
     .tableB th, table td {
         padding: 1px 5px;
+        border: 1px solid #d1d1d1;
     }
 
     /* */
